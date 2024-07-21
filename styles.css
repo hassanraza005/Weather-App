@@ -1,0 +1,61 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.head{
+    text-align: center;
+    margin: 20px;
+}
+form{
+    text-align: center;
+    margin: 20px; 
+}
+input{
+    width: 500px;
+    padding: 14px 16px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.bn{
+    padding: 14px 20px;
+
+}
+
+.form-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.form-cards-js{
+    background-image: url(https://images.unsplash.com/photo-1612908055356-8c51bc883355?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHdlYXRoZXIlMjBhcHB8ZW58MHx8MHx8fDA%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width:560px){
+    input{
+        width: 300px;
+    }
+    form{
+        text-align: center;
+        margin: 20px; 
+    }
+}
+
+@media (max-width:365px){
+    input{
+        width: 200px;
+    }
+    form{
+        text-align: center;
+        margin: 20px; 
+    }
+}
